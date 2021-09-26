@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>myfitness gym</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(gymimg.jpg);
+            
+            font-family: cursive;
+            color: white;
+            
+
+        }
+
+        .left {
+            display: inline-block;
+    
+            position: absolute;
+            left: 34px;
+            top: 20px;
+            color: #000;
+            text-align: center;
+            text-decoration: underline;
+
+
+        }
+
+        .middle {
+            display: block;
+            margin: 20px auto;
+            width: 64%;
+
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 44px;
+            
+
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 30px;
+        }
+        .navbar li a{
+                color:whitesmoke;
+                display:inline-block;
+                text-decoration: none;
+                padding: 0px 34px;
+        }
+        .navbar li a:hover{
+                text-decoration: underline;
+                color: black;
+        }
+        .left img{
+            width: 136px;
+            
+        }
+        .container{
+             
+                margin: 103px 127px;
+                padding: 106px 43px;
+                border-radius: 15px;
+                text-align: center;
+               
+                
+        }
+        .container button{
+            display: block;
+            width: 23%;
+            margin: auto;
+               
+                
+        }
+        .button{
+            font-family: cursive;
+            border-radius: 10px;
+            
+        }
+        .fromgroup input{
+            text-align: center;
+            display:block;
+            width: 426px;
+            padding: 1px;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="gym logo.png" alt="">
+            <div>MY FITNESS 
+               
+            </div>
+           
+        </div>
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="#"> home</a></li>
+                <li><a href="#">abouts us</a> </li>
+                <li><a href="#">fitness</a> </li>
+                <li><a href="#">contact us</a> </li>
+            </ul>
+        </div>
+        <div class="right">
+          <input type="text" name="text" placeholder="search here">
+          <input type="button" value="search">
+        </div>
+    </header>
+    <div class="container">
+        <H1>MY FITNESS GYM WELCOME'S U</H1>
+        <form action="#">
+            <div class="fromgroup">
+                <div><input type="text" name="" placeholder="NAME"></div>
+                <div><input type="text" name="" placeholder="AGE"></div>
+                <div><input type="text" name="" placeholder="GENDER"></div>
+                <div><input type="text" name="" placeholder="LOCATION"></div>
+            </div>
+            <div class="button"><input type="button" value="sumbit"></div>
+            <div class="button"><input type="button" value="reset"></div>
+    
+
+        </form>
+    </div>
+    
+</body>
+
+</html>
